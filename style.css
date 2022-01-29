@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+    align-items: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    height:100%;
+}
+
+
+.wrapper{
+    text-align: center;
+    margin: 5rem;
+
+}
+
+.clock{
+    width:8rem;
+    height: 15rem;
+    margin: 0;
+}
+
+h1 ,p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.6rem;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+#seconds, #tens ,#milli{
+    font-size: 2.7rem;
+}
+
+button{
+    background:#000;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 550;
+    border:solid 1px #fff;
+    text-decoration: none;
+    cursor:pointer;
+    padding: 1.5rem 1rem;
+    width:12rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+button:hover{
+    background:aquamarine ;
+    color:#000;
+    border:solid 1px #000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
